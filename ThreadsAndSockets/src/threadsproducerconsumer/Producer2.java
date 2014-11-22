@@ -13,6 +13,7 @@ public class Producer2 extends Thread {
     public void run() {
         for (int i = 0; i < 10; i++) {
             cubbyhole.put(number, i);
+			System.out.println("Producer " + number + " put: " + i);
             try {
                 this.sleep((int)(Math.random() * 100));
             } catch (InterruptedException e) { }

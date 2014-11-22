@@ -21,7 +21,6 @@ public class CubbyHole2 {
 				}
 			}
 			available = false;
-			System.out.println("Consumer " + who + " got: " + contents);
 			condVar.signalAll();
 		} finally {
 			aLock.unlock();
@@ -40,7 +39,6 @@ public class CubbyHole2 {
 			}
 			contents = value;
 			available = true;
-			System.out.println("Producer " + who + " put: " + contents);
 			condVar.signalAll();
 		} finally {
 			aLock.unlock();

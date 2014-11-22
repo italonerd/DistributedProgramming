@@ -13,6 +13,8 @@ public class Consumer2 extends Thread{
         int value = 0;
         for (int i = 0; i < 10; i++) {
             value = cubbyhole.get(this.number);  
+			System.out.println("Consumer " + this.number + " got: " + value);
+
         }
     }    
     

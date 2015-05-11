@@ -1,4 +1,4 @@
-package threadsproducerconsumer;
+package threads.producerconsumer;
 
 public class Consumer2 extends Thread{
 	private CubbyHole2 cubbyhole;

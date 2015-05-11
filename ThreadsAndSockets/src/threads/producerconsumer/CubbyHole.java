@@ -1,4 +1,4 @@
-package threadsproducerconsumer;
+package threads.producerconsumer;
 
 public class CubbyHole {
 	private int contents = -1;

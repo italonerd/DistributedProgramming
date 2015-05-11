@@ -1,4 +1,4 @@
-package threadsproducerconsumer;
+package threads.producerconsumer;
 
 public class ProducerConsumerTest {
 	public static void main(String[] args) {

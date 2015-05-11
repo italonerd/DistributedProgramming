@@ -1,4 +1,4 @@
-package threadspool;
+package threads.pool;
 
 public class WorkerThread implements Runnable {
 	private int workerNumber;

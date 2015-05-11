@@ -1,4 +1,4 @@
-package threadspool;
+package threads.pool;
 
 import java.util.concurrent.Callable;
 
